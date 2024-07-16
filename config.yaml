@@ -1,0 +1,19 @@
+companies:
+  - name: "Square"
+    url: "https://careers.squareup.com/gb/en/jobs"
+    parser:
+      target: "div"
+      attributes:
+        data-job-role: Information Technology
+  - name: "Nascent"
+    url: "https://beta.nascentdigital.com/careers/opportunities"
+    parser:
+      target: "main > div > div > div > h3"
+  - name: "Aareas"
+    url: "https://aareas.com/careers"
+    parser:
+      target: "main > div > section > div > div > div > div > div > div > div > h3"
+  - name: "Dawn Infotek"
+    url: "https://ca.indeed.com/Dawn-Infotek-jobs"
+    parser:
+      target: "tbody > tr > td > div > h2"
